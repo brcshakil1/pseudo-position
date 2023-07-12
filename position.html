@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning Elements</title>
+
+    <style>
+        .boxes {
+            border: 2px solid red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .box {
+            position: relative;    
+        }
+
+        .boy {
+            z-index: 10;
+        }
+        .ring {
+            top: -70px;
+            left: 5px;
+            z-index: 5;
+
+        }
+        .water {
+            top: -150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Positioning Elements</h1>
+    <div class="boxes">
+        <div class="box boy"><img src="./swim/boy.svg" alt=""></div>
+        <div class="box ring"><img src="./swim/ring.svg" alt=""></div>
+        <div class="box water"><img src="./swim/water.svg" alt=""></div>
+    </div>
+</body>
+</html>
