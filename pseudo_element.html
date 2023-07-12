@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo Elements</title>
+    <style>
+        /* li:nth-child(even) {
+            color: red;
+        } */
+
+        li:nth-child(2n) {
+            color: green;
+        }    
+        /* li:nth-child(odd) {
+            color: red;
+        }     */
+        li:nth-child(2n + 1) {
+            color: red;
+        }   
+        li:nth-child(1) {
+            background-color: #000;
+        } 
+        li:last-child {
+            background-color: rgb(216, 111, 111);
+        }
+        ::selection {
+            background-color: yellow;
+            color: rgb(255, 72, 0);
+        }
+    </style>
 </head>
 <body>
     <h1>Pseudo Elements</h1>
+    <ol>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Voluptatum, eaque quidem!</li>
+        <li>Dolorum, neque laboriosam.</li>
+        <li>Laboriosam, doloremque exercitationem.</li>
+        <li>Molestiae, itaque quod.</li>
+        <li>Veniam, vitae amet!</li>
+        <li>Et, nihil blanditiis?</li>
+        <li>Possimus, maxime quod?</li>
+        <li>Fugit, quis odit?</li>
+        <li>Quasi, voluptates fugit!</li>
+    </ol>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nam dicta aliquid perspiciatis officia ipsum ad iste nulla accusantium nesciunt dolores cumque, optio aut exercitationem ratione. Necessitatibus, a. Delectus necessitatibus sint nulla nisi corporis earum numquam consequuntur qui libero exercitationem, nemo autem dolorem rem, nam aut temporibus, repellendus eum saepe at itaque. Dicta ducimus sit porro voluptate dolorum pariatur commodi totam nostrum soluta eum explicabo, animi quasi, molestiae ea numquam. Laborum laboriosam unde ratione. Delectus accusamus animi ex reprehenderit nihil eligendi similique aspernatur ducimus ipsum nobis explicabo facere amet magni sunt illo cum exercitationem, aperiam saepe quod quo molestias. Deserunt.</p>
 </body>
 </html>
