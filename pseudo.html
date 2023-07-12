@@ -4,8 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo Class</title>
+    <style>
+        button {
+            background-color: teal;
+            color: #fff;
+            font-size: 20px;
+            border-radius: 8px;
+            border:0;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: 0.7s;
+        }
+        button:hover {
+            color: rgb(85, 85, 85);
+            background-color: rgb(45, 127, 209);
+        }
+
+        input {
+            display: block;
+            margin-top: 10px;
+            outline: none;
+        }
+
+        input:focus  {
+            border: 1px solid red;   
+            padding: 10px;
+        }
+
+        input::placeholder {
+            color: blue;
+            background-color: orange;
+        }
+
+
+    </style>
 </head>
 <body>
     <h1>Pseudo Class</h1>
+    <button>Mouse over</button>
+
+    <input type="text" placeholder="click..."> 
+    <input type="text" placeholder="try again..."> 
+    <input type="text" placeholder="and again..."> 
 </body>
 </html>
